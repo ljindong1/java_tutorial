@@ -1,0 +1,24 @@
+{
+    "terminal.integrated.defaultProfile.linux": "bash",
+    "terminal.integrated.profiles.linux": {
+        "bash": {
+            "path": "/bin/bash"
+        }
+    },
+    "terminal.integrated.defaultProfile.windows": "Ubuntu",
+    "terminal.integrated.profiles.windows": {
+        "Ubuntu": {
+            "path": "wsl.exe",
+            "args": ["~"]
+        }
+    },
+    "java.jdt.ls.java.home": "/usr/lib/jvm/java-21-openjdk-amd64",
+    "java.configuration.runtimes": [
+        {
+            "name": "JavaSE-21",
+            "path": "/usr/lib/jvm/java-21-openjdk-amd64"
+        }
+    ],
+    "java.compile.nullAnalysis.mode": "automatic",
+    "java.configuration.updateBuildConfiguration": "interactive"
+}
