@@ -3,7 +3,7 @@ package org.example.myapp;
 import java.util.Arrays;
 import java.util.List;
 
-public class steamTutorial {
+public class SteamTutorial {
     public static void main(String[] args) {
                 // ✅ 초급: 숫자 리스트 필터링 및 출력
         List<Integer> numbers = Arrays.asList(1, 2, 3, 4, 5, 6);
