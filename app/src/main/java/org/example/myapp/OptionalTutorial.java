@@ -21,6 +21,7 @@ public class OptionalTutorial {
 }
 
 class User {
+    @SuppressWarnings("unused")
     private String name;
     private String email;
 
