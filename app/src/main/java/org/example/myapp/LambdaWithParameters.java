@@ -11,9 +11,12 @@ public class LambdaWithParameters {
         // 덧셈
         MathOperation add = (a, b) -> a + b;
         /*
-         * 단 operate는 삭제해야 동작함(이해를 돕기 위해 삽입함)
-         * MathOperation add = operate(int a, int b) -> {
+         * MathOperation add = new MathOperation() {
+         * 
+         * @Override
+         * public int operate(int a, int b) {
          * return a + b;
+         * }
          * };
          */
         // 뺄셈
